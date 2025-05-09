@@ -1,15 +1,15 @@
 import { RevealOnScroll } from "../RevealOnScroll";
 
 export const About = () => {
-  const frontendSkills = [
-    "React",
-    "Vue",
-    "TypeScript",
-    "TailWindCSS",
-    "Svelte",
+  const softSkills = [
+    "Autonomy",
+    "Leadership",
+    "Communication",
+    "Fast Learning",
+    "Reliability",
   ];
 
-  const backendSkills = ["Node.js", "Python", "AWS", "MongoDB", "C++"];
+  const techSkills = ["Python", "C++", "SQL",  "HTML", "CSS", "JS", "VBA"];
 
   return (
     <section
@@ -25,17 +25,22 @@ export const About = () => {
 
           <div className="glass rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
             <p className="text-gray-300 mb-6">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Repudiandae ea necessitatibus itaque est velit, obcaecati ullam
-              asperiores, eum eius fugit doloremque dolorem accusamus tempora,
-              nihil molestias iure impedit. Omnis, laborum!
+              <p className="text-gray-300 mb-6 text-justify">
+                I'm a computer science student with a strong interest in
+                cybersecurity. Through my studies in France and Canada, I’ve
+                built solid foundations in programming and teamwork, especially
+                through hands-on school projects. My student jobs have also
+                helped me develop key soft skills like communication,
+                adaptability, and leadership. I’m curious, motivated, and always
+                looking to learn something new — both in tech and in life.
+              </p>
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-                <h3 className="text-xl font-bold mb-4">Lorem</h3>
+                <h3 className="text-xl font-bold mb-4">Soft skills</h3>
                 <div className="flex flex-wrap gap-2">
-                  {frontendSkills.map((tech, key) => (
+                  {softSkills.map((tech, key) => (
                     <span
                       key={key}
                       className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20 
@@ -48,9 +53,9 @@ export const About = () => {
                 </div>
               </div>
               <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-                <h3 className="text-xl font-bold mb-4">Lorem</h3>
+                <h3 className="text-xl font-bold mb-4">Technical skills</h3>
                 <div className="flex flex-wrap gap-2">
-                  {backendSkills.map((tech, key) => (
+                  {techSkills.map((tech, key) => (
                     <span
                       key={key}
                       className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20 
@@ -70,14 +75,31 @@ export const About = () => {
               <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
-                  <strong>Bachelor's degree in Computer Science</strong> -
-                  Université Laval, Canada
-                  <br /> (2024-Present)
+                  <strong>
+                    Bachelor's degree in Computer Science – Université Laval,
+                    Canada
+                  </strong>
+                  <br />{" "}
+                  <span className="text-sm text-gray-400">(2024-Present)</span>
+                  <p>
+                    Currently expanding my expertise in computer science, with a
+                    strong emphasis on cybersecurity. I'm also gaining deeper
+                    insights into AI and databases, while engaging in numerous
+                    collaborative projects.
+                  </p>
                 </li>
                 <li>
-                  <strong>Engineering School in Computer Science</strong> -
-                  CyTech, France
-                  <br /> (2020-2023)
+                  <strong>
+                    Engineering School in Computer Science – CyTech, France
+                  </strong>
+                  <br />{" "}
+                  <span className="text-sm text-gray-400">(2020 - 2023)</span>
+                  <p>
+                    Acquired solid foundations in algorithms, data structures,
+                    systems programming, and mathematics. Completed several team
+                    projects and developed strong problem-solving and
+                    collaboration skills.
+                  </p>
                 </li>
               </ul>
             </div>
@@ -99,19 +121,24 @@ export const About = () => {
                 </div>
                 <div>
                   <h4 className="font-semibold">
-                    Expert Service Factor
-                    <br />
-                    (Sep 2023 - Dec 2023)
+                    Product qualification - Idemia <br />
+                    (Aug 2023 - Sep 2023)
                   </h4>
                   <p>
-                    - Area manager for mail sorting and distribution <br />
-                    - Direct intermediary between center manager and mail
-                    carriers
-                    <br />
-                    - Training factors to ensure continuity of service and
-                    replace them <br />
-                    - Assist the manager in decision-making
-                    <br />
+                    - Biometric product testing and associated report writing
+                    <br />- Script programming for product testing campaign
+                  </p>
+                </div>
+                <div>
+                  <h4 className="font-semibold">
+                    Process automation by scripting - Idemia <br />
+                    (July 2022 - Sep 2022)
+                  </h4>
+                  <p>
+                    - Script programming to automate data migration to a new
+                    project management system
+                    <br />- Assistance to project managers in the implementation
+                    of a new data management system.
                   </p>
                 </div>
               </div>
