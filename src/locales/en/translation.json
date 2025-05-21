@@ -1,0 +1,92 @@
+{
+  "homeTitle": "Student in Computer Science & Cybersecurity",
+  "homeDesc": "Passionate about tech, ethical hacking, and exploring the world.",
+  "tempHomeDesc": "Website still under development...",
+  "viewProjects": "View Projects",
+  "contactMe": "Contact Me",
+
+  "about": {
+    "title": "About Me",
+    "description": "I'm a computer science student with a strong interest in cybersecurity. Through my studies in France and Canada, I’ve built solid foundations in programming and teamwork, especially through hands-on school projects. My student jobs have also helped me develop key soft skills like communication, adaptability, and leadership. I’m curious, motivated, and always looking to learn something new — both in tech and in life.",
+    "softSkills": {
+      "title": "Soft Skills",
+      "autonomy": "Autonomy",
+      "leadership": "Leadership",
+      "communication": "Communication",
+      "fastLearning": "Fast Learning",
+      "reliability": "Reliability"
+    },
+    "techSkills": {
+      "title": "Technical Skills"
+    },
+    "education": {
+      "title": "🏫 Education",
+      "ulaval": {
+        "title": "Bachelor's degree in Computer Science – Université Laval, Canada",
+        "period": "(2024 - Present)",
+        "description": "Currently expanding my expertise in computer science, with a strong emphasis on cybersecurity. I'm also gaining deeper insights into AI and databases, while engaging in numerous collaborative projects."
+      },
+      "cytech": {
+        "title": "Engineering School in Computer Science – CyTech, France",
+        "period": "(2020 - 2023)",
+        "description": "Acquired solid foundations in algorithms, data structures, systems programming, and mathematics. Completed several team projects and developed strong problem-solving and collaboration skills."
+      }
+    },
+    "experience": {
+      "title": "💼 Work Experience",
+      "jack": {
+        "title": "Team Leader - Jack and Jones",
+        "period": "Feb 2024 - Present",
+        "description": "- Development of ready-to-wear sales techniques\n- Customer relations\n- Drawing up game plans and managing the team to achieve objectives"
+      },
+      "idemia1": {
+        "title": "Product qualification - Idemia",
+        "period": "Aug 2023 - Sep 2023",
+        "description": "- Biometric product testing and associated report writing\n- Script programming for product testing campaign"
+      },
+      "idemia2": {
+        "title": "Process automation by scripting - Idemia",
+        "period": "Jul 2022 - Sep 2022",
+        "description": "- Script programming to automate data migration to a new project management system\n- Assistance to project managers in the implementation of a new data management system."
+      }
+    }
+  },
+
+  "projects": {
+    "title": "Personal projects",
+    "thm": {
+      "title": "TryHackMe Training",
+      "description": "Ongoing training on real-world cybersecurity scenarios: enumeration, privilege escalation, web attacks, and more.",
+      "tags": [
+        "Cybersecurity",
+        "Linux",
+        "CTF",
+        "Reverse Engineering",
+        "OSINT",
+        "Pentest"
+      ],
+      "link": "View Profile →"
+    },
+    "bank-project": {
+      "title": "Bank Account Management",
+      "description": "Graphical interface for managing multiple bank accounts for a given client. Project developed as part of the GIF-1003 course – Advanced C++ Programming for Engineering. Including personal customizations.",
+      "tags": ["C++", "Qt", "Object-Oriented"],
+      "link": "View Project →"
+    }
+  },
+  "contact": {
+    "title": "Contact Me",
+    "namePlaceholder": "Name...",
+    "emailPlaceholder": "example@gmail.com",
+    "messagePlaceholder": "Your Message...",
+    "submit": "Send Message",
+    "success": "Message sent!",
+    "error": "Oops! Something went wrong. Please try again."
+  },
+  "navbar": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact"
+  }
+}

@@ -1,6 +1,6 @@
 {
   "name": "beautiful-portfolio",
-  "homepage": "https://Romain1309.github.io/romain-gardet-portfolio",
+  "homepage": "https://romain1309.github.io/romain-gardet-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -15,8 +15,10 @@
   "dependencies": {
     "@tailwindcss/vite": "^4.0.0",
     "emailjs-com": "^3.2.0",
+    "i18next": "^25.1.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-i18next": "^15.5.1",
     "tailwindcss": "^4.0.0"
   },
   "devDependencies": {
@@ -31,4 +33,3 @@
     "vite": "^6.1.0"
   }
 }
-

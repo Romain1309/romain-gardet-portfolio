@@ -1,12 +1,42 @@
-# React + Vite
+# 💻 Romain Gardet – Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a personal portfolio project built with **React**, **Vite**, **TailwindCSS**, and **i18next** for language switching (EN/FR).  
+It is deployed using **GitHub Pages**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Site
 
-## Expanding the ESLint configuration
+🔗 [https://romain1309.github.io/romain-gardet-portfolio](https://romain1309.github.io/romain-gardet-portfolio)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🧰 Tech Stack
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [i18next](https://www.i18next.com/)
+- [EmailJS](https://www.emailjs.com/) for contact form
+- [gh-pages](https://www.npmjs.com/package/gh-pages) for deployment
+
+---
+
+## 📁Project structure
+src/
+├─ components/
+│  ├─ Navbar.jsx
+│  ├─ MobileMenu.jsx
+│  ├─ LoadingScreen.jsx
+│  ├─ RevealOnScroll.jsx
+│  └─ sections/
+│     ├─ Home.jsx
+│     ├─ About.jsx
+│     ├─ Projects.jsx
+│     └─ Contact.jsx
+├─ locales/
+│  ├─ en/translation.json
+│  └─ fr/translation.json
+├─ App.jsx
+├─ main.jsx
+└─ i18n.js

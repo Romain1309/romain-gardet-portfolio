@@ -1,8 +1,11 @@
 import { useState } from "react";
 import { RevealOnScroll } from "../RevealOnScroll";
 import emailjs from "emailjs-com";
+import { useTranslation } from "react-i18next";
 
 export const Contact = () => {
+  const { t } = useTranslation();
+
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -19,11 +22,11 @@ export const Contact = () => {
         e.target,
         import.meta.env.VITE_PUBLIC_KEY
       )
-      .then((result) => {
-        alert("Message Sent!");
+      .then(() => {
+        alert(t("contact.success"));
         setFormData({ name: "", email: "", message: "" });
       })
-      .catch(() => alert("Oops! Something went wrong. Please try again."));
+      .catch(() => alert(t("contact.error")));
   };
 
   return (
@@ -34,8 +37,7 @@ export const Contact = () => {
       <RevealOnScroll>
         <div className="px-4 w-full min-w-[300px] md:w-[500px] sm:w-2/3 p-6">
           <h2 className="text-3xl font-bold mb-8 bg-gradient-to-r from-purple-500 to-pink-600 bg-clip-text text-transparent text-center">
-            {" "}
-            Contact Me
+            {t("contact.title")}
           </h2>
           <form className="space-y-6" onSubmit={handleSubmit}>
             <div className="relative">
@@ -46,7 +48,7 @@ export const Contact = () => {
                 required
                 value={formData.name}
                 className="w-full bg-white/5 border border-white/10 rounded px-4 py-3 text-white transition focus:outline-none focus:border-purple-500 focus:bg-purple-500/5"
-                placeholder="Name..."
+                placeholder={t("contact.namePlaceholder")}
                 onChange={(e) =>
                   setFormData({ ...formData, name: e.target.value })
                 }
@@ -61,7 +63,7 @@ export const Contact = () => {
                 required
                 value={formData.email}
                 className="w-full bg-white/5 border border-white/10 rounded px-4 py-3 text-white transition focus:outline-none focus:border-purple-500 focus:bg-purple-500/5"
-                placeholder="example@gmail.com"
+                placeholder={t("contact.emailPlaceholder")}
                 onChange={(e) =>
                   setFormData({ ...formData, email: e.target.value })
                 }
@@ -76,7 +78,7 @@ export const Contact = () => {
                 rows={5}
                 value={formData.message}
                 className="w-full bg-white/5 border border-white/10 rounded px-4 py-3 text-white transition focus:outline-none focus:border-purple-500 focus:bg-purple-500/5"
-                placeholder="Your Message..."
+                placeholder={t("contact.messagePlaceholder")}
                 onChange={(e) =>
                   setFormData({ ...formData, message: e.target.value })
                 }
@@ -85,9 +87,9 @@ export const Contact = () => {
 
             <button
               type="submit"
-              className="w-full bg-purple-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)]"
+              className="w-full bg-purple-500 text-white py-3 px-6 rounded font-medium transition relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59,130,246,0.4)] cursor-pointer"
             >
-              Send Message
+              {t("contact.submit")}
             </button>
           </form>
         </div>

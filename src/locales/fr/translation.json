@@ -1,0 +1,91 @@
+{
+  "homeTitle": "Étudiant en informatique et cybersécurité",
+  "homeDesc": "Passionné par la tech, le hacking éthique et la découverte du monde.",
+  "tempHomeDesc": "Site encore en développement...",
+  "viewProjects": "Voir les projets",
+  "contactMe": "Me contacter",
+
+  "about": {
+    "title": "À propos de moi",
+    "description": "Je suis étudiant en informatique avec un fort intérêt pour la cybersécurité. Grâce à mes études en France et au Canada, j’ai acquis de solides bases en programmation et en travail d'équipe, notamment à travers des projets concrets. Mes jobs étudiants m’ont également permis de développer des compétences essentielles comme la communication, l’adaptabilité et le leadership. Je suis curieux, motivé et toujours prêt à apprendre de nouvelles choses — dans la tech comme ailleurs.",
+    "softSkills": {
+      "title": "Compétences humaines",
+      "autonomy": "Autonomie",
+      "leadership": "Leadership",
+      "communication": "Communication",
+      "fastLearning": "Apprentissage rapide",
+      "reliability": "Sérieux"
+    },
+    "techSkills": {
+      "title": "Compétences techniques"
+    },
+    "education": {
+      "title": "🏫 Formation",
+      "ulaval": {
+        "title": "Bac en informatique – Université Laval, Canada",
+        "period": "(2024 - Aujourd'hui)",
+        "description": "Je développe actuellement mon expertise en informatique, avec un fort accent sur la cybersécurité. J’approfondis également mes connaissances en intelligence artificielle et en bases de données, tout en participant à de nombreux projets collaboratifs."
+      },
+      "cytech": {
+        "title": "École d'ingénieur en informatique – CyTech, France",
+        "period": "(2020 - 2023)",
+        "description": "J’ai acquis de solides bases en algorithmiques, structures de données, programmation et mathématiques. Plusieurs projets en équipe m’ont permis de développer mes compétences en résolution de problèmes et en collaboration."
+      }
+    },
+    "experience": {
+      "title": "💼 Expérience professionnelle",
+      "jack": {
+        "title": "Chef d’équipe - Jack and Jones",
+        "period": "Fév 2024 - Aujourd'hui",
+        "description": "- Développement de techniques de vente prêt-à-porter\n- Relations clients\n- Élaboration de stratégies et gestion d’équipe pour atteindre les objectifs"
+      },
+      "idemia1": {
+        "title": "Qualification produit - Idemia",
+        "period": "Août 2023 - Sep 2023",
+        "description": "- Tests de produits biométriques et rédaction des rapports associés\n- Programmation de scripts pour les campagnes de test"
+      },
+      "idemia2": {
+        "title": "Automatisation de processus - Idemia",
+        "period": "Juil 2022 - Sep 2022",
+        "description": "- Programmation de scripts pour automatiser la migration des données vers un nouveau système de gestion\n- Support aux chefs de projet dans la mise en place du nouveau système"
+      }
+    }
+  },
+  "projects": {
+    "title": "Projets personnels",
+    "thm": {
+      "title": "Formation TryHackMe",
+      "description": "Formation continue sur des scénarios réels en cybersécurité : énumération, élévation de privilèges, attaques web, et plus encore.",
+      "tags": [
+        "Cybersécurité",
+        "Linux",
+        "CTF",
+        "Reverse Engineering",
+        "OSINT",
+        "Pentest"
+      ],
+      "link": "Voir le profil →"
+    },
+    "bank-project": {
+      "title": "Gestion de comptes bancaires",
+      "description": "Interface graphique permettant de gérer différents compte bancaires pour un client donné. Projet réalisé dans le cadre du cours GIF-1003 - Programmation avancée en C++ pour l'ingénierie. Avec ajout de modifications personnelles.",
+      "tags": ["C++", "Qt", "Orienté objet"],
+      "link": "Voir le projet →"
+    }
+  },
+  "contact": {
+    "title": "Me contacter",
+    "namePlaceholder": "Nom...",
+    "emailPlaceholder": "exemple@gmail.com",
+    "messagePlaceholder": "Votre message...",
+    "submit": "Envoyer le message",
+    "success": "Message envoyé !",
+    "error": "Oups ! Une erreur est survenue. Veuillez réessayer."
+  },
+  "navbar": {
+    "home": "Accueil",
+    "about": "À propos",
+    "projects": "Projets",
+    "contact": "Contact"
+  }
+}
