@@ -23,6 +23,7 @@ It is deployed using **GitHub Pages**.
 ---
 
 ## 📁Project structure
+```
 src/
 ├─ components/
 │  ├─ Navbar.jsx
@@ -40,3 +41,4 @@ src/
 ├─ App.jsx
 ├─ main.jsx
 └─ i18n.js
+```
