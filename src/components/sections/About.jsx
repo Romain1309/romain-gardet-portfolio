@@ -85,6 +85,14 @@ export const About = () => {
                   </span>
                   <p>{t("about.education.cytech.description")}</p>
                 </li>
+                <li>
+                  <strong>{t("about.education.louis-armand.title")}</strong>
+                  <br />
+                  <span className="text-sm text-gray-400">
+                    {t("about.education.louis-armand.period")}
+                  </span>
+                  <p>{t("about.education.louis-armand.description")}</p>
+                </li>
               </ul>
             </div>
 
@@ -93,6 +101,18 @@ export const About = () => {
                 {t("about.experience.title")}
               </h3>
               <div className="space-y-4 text-gray-300">
+
+                <div>
+                  <h4 className="font-semibold">
+                    {t("about.experience.telus.title")}
+                    <br />
+                    <span className="text-sm text-gray-400">
+                      {t("about.experience.telus.period")}
+                    </span>
+                  </h4>
+                  <p>{t("about.experience.telus.description").split("\n").map((line, i) => <span key={i}>{line}<br/></span>)}</p>
+                </div>
+
                 <div>
                   <h4 className="font-semibold">
                     {t("about.experience.jack.title")}

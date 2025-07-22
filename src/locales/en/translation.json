@@ -29,11 +29,21 @@
       "cytech": {
         "title": "Engineering School in Computer Science – CyTech, France",
         "period": "(2020 - 2023)",
-        "description": "Acquired solid foundations in algorithms, data structures, systems programming, and mathematics. Completed several team projects and developed strong problem-solving and collaboration skills."
+        "description": "This course enabled me to consolidate my knowledge of algorithms, data structures, programming and mathematics. Several team projects helped me develop my problem-solving and collaboration skills."
+      },
+      "louis-armand": {
+        "title": "Scientific Baccalaureate (engineering sciences concentration) – Lycée Louis Armand, France",
+        "period": "(2018 - 2020)",
+        "description": "This degree marked my first in-depth immersion in the engineering sciences. It gave me a solid foundation and enabled me to identify what really interested me: computer science."
       }
     },
     "experience": {
       "title": "💼 Work Experience",
+      "telus": {
+        "title": "Sales Representative - Telus",
+        "period": "Jul 2025 - Present",
+        "description": "- Sale of mobility and residential services (internet, TV, phone)\n- Customer needs analysis to offer tailored solutions\n- Development of sales techniques and customer loyalty strategies"
+      },
       "jack": {
         "title": "Team Leader - Jack and Jones",
         "period": "Feb 2024 - Present",

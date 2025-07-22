@@ -29,11 +29,21 @@
       "cytech": {
         "title": "École d'ingénieur en informatique – CyTech, France",
         "period": "(2020 - 2023)",
-        "description": "J’ai acquis de solides bases en algorithmiques, structures de données, programmation et mathématiques. Plusieurs projets en équipe m’ont permis de développer mes compétences en résolution de problèmes et en collaboration."
+        "description": "Cette formation m'a permis de consolider mes connaissances en algorithmiques, structures de données, programmation et mathématiques. Plusieurs projets en équipe m’ont permis de développer mes compétences en résolution de problèmes et en collaboration."
+      },
+      "louis-armand": {
+        "title": "Bac S (option sciences de l'ingénieur) – Lycée Louis Armand, France",
+        "period": "(2018 - 2020)",
+        "description": "Ce diplôme a marqué ma première immersion approfondie dans les sciences de l’ingénierie. Elle m’a offert une base solide et m’a permis d’identifier ce qui m’intéressait réellement : l’informatique."
       }
     },
     "experience": {
       "title": "💼 Expérience professionnelle",
+      "telus": {
+        "title": "Représentant des ventes - Telus",
+        "period": "Juillet 2025 - Aujourd'hui",
+        "description": "- Vente de services mobilité et résidentiels (internet, télévision, téléphonie)\n- Analyse des besoins clients pour proposer des solutions personnalisées\n- Développement de techniques de vente et fidélisation client"
+      },
       "jack": {
         "title": "Chef d’équipe - Jack and Jones",
         "period": "Fév 2024 - Aujourd'hui",
