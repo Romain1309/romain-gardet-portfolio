@@ -82,6 +82,12 @@
       "description": "Graphical interface for managing multiple bank accounts for a given client. Project developed as part of the GIF-1003 course – Advanced C++ Programming for Engineering. Including personal customizations.",
       "tags": ["C++", "Qt", "Object-Oriented"],
       "link": "View Project →"
+    },
+    "bruteforce-tool": {
+      "title": "Bruteforce Tool",
+      "description": "Work-in-progress script to generate custom passwords and perform brute-force attacks on hashes (SHA-256, SHA-1, MD5...) using wordlists.",
+      "tags": ["Python", "Security", "Bruteforce", "Hashing"],
+      "link": "(Link not available yet)"
     }
   },
   "contact": {

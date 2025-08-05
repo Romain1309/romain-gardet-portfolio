@@ -77,6 +77,38 @@ export const Projects = () => {
                 </a>
               </div>
             </div>
+
+            <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 hover:border-purple-500/30 hover:shadow transition-all">
+              <h3 className="text-xl font-bold mb-2">
+                {t("projects.bruteforce-tool.title")}
+              </h3>
+              <p className="text-gray-400 mb-4 text-justify">
+                {t("projects.bruteforce-tool.description")}
+              </p>
+              <div className="flex flex-wrap gap-2 mb-4">
+                {t("projects.bruteforce-tool.tags", { returnObjects: true }).map(
+                  (tag, key) => (
+                    <span
+                      key={key}
+                      className="bg-purple-500/10 text-purple-500 py-1 px-3 rounded-full text-sm hover:bg-purple-500/20 hover:shadow transition"
+                    >
+                      {tag}
+                    </span>
+                  )
+                )}
+              </div>
+              <div className="flex justify-between items-center">
+                <a
+                  href="#projects" //Lien à modifier plus tard
+                  //target="_blank"
+                  //rel="noopener noreferrer"
+                  className="text-purple-400 hover:text-purple-300 transition-colors my-4"
+                >
+                  {t("projects.bruteforce-tool.link")}
+                </a>
+              </div>
+            </div>
+
           </div>
         </div>
       </RevealOnScroll>

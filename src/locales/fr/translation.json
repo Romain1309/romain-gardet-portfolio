@@ -81,6 +81,12 @@
       "description": "Interface graphique permettant de gérer différents compte bancaires pour un client donné. Projet réalisé dans le cadre du cours GIF-1003 - Programmation avancée en C++ pour l'ingénierie. Avec ajout de modifications personnelles.",
       "tags": ["C++", "Qt", "Orienté objet"],
       "link": "Voir le projet →"
+    },
+    "bruteforce-tool": {
+      "title": "Outil de bruteforce",
+      "description": "Script en développement permettant de générer des mots de passe personnalisés et de lancer des attaques par force brute sur des hachages (SHA-256, SHA-1, MD5...) via des wordlists.",
+      "tags": ["Python", "Sécurité", "Bruteforce", "Hashing"],
+      "link": "(Lien pas encore disponible)"
     }
   },
   "contact": {
