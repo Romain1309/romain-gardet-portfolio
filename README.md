@@ -1,17 +1,17 @@
-# 💻 Romain Gardet – Portfolio
+# Romain Gardet – Portfolio
 
 This is a personal portfolio project built with **React**, **Vite**, **TailwindCSS**, and **i18next** for language switching (EN/FR).  
 It is deployed using **GitHub Pages**.
 
 ---
 
-## 🚀 Live Site
+## Live Site
 
-🔗 [https://romain1309.github.io/romain-gardet-portfolio](https://romain1309.github.io/romain-gardet-portfolio)
+[https://romain1309.github.io/romain-gardet-portfolio](https://romain1309.github.io/romain-gardet-portfolio)
 
 ---
 
-## 🧰 Tech Stack
+## Tech Stack
 
 - [React](https://reactjs.org/)
 - [Vite](https://vitejs.dev/)
@@ -22,7 +22,7 @@ It is deployed using **GitHub Pages**.
 
 ---
 
-## 📁Project structure
+## Project structure
 ```
 src/
 ├─ components/
